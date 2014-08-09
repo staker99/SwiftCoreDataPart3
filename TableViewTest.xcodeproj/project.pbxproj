@@ -10,6 +10,7 @@
 		5533FA0119676DC600EF5201 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533FA0019676DC600EF5201 /* TaskManager.swift */; };
 		5533FA0319676E0E00EF5201 /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533FA0219676E0E00EF5201 /* PersistenceHelper.swift */; };
 		5533FA05196770F900EF5201 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533FA04196770F900EF5201 /* AddTaskVC.swift */; };
+		5558AC671982933800B654B1 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558AC661982933800B654B1 /* NavController.swift */; };
 		558102CE1959EE0700EE6755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558102CD1959EE0700EE6755 /* AppDelegate.swift */; };
 		558102D11959EE0700EE6755 /* TableViewTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558102CF1959EE0700EE6755 /* TableViewTest.xcdatamodeld */; };
 		558102D31959EE0700EE6755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558102D21959EE0700EE6755 /* Images.xcassets */; };
@@ -33,6 +34,7 @@
 		5533FA0019676DC600EF5201 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		5533FA0219676E0E00EF5201 /* PersistenceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
 		5533FA04196770F900EF5201 /* AddTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
+		5558AC661982933800B654B1 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		558102C81959EE0700EE6755 /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558102CC1959EE0700EE6755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558102CD1959EE0700EE6755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				558102CD1959EE0700EE6755 /* AppDelegate.swift */,
 				55E8730F1959F37F00734ED2 /* MainVC.swift */,
 				55E873111959F3D500734ED2 /* DetailVC.swift */,
+				5558AC661982933800B654B1 /* NavController.swift */,
 				5533FA04196770F900EF5201 /* AddTaskVC.swift */,
 				5533FA0019676DC600EF5201 /* TaskManager.swift */,
 				5533FA0219676E0E00EF5201 /* PersistenceHelper.swift */,
@@ -229,6 +232,7 @@
 				5533FA0119676DC600EF5201 /* TaskManager.swift in Sources */,
 				55E873101959F37F00734ED2 /* MainVC.swift in Sources */,
 				558102D11959EE0700EE6755 /* TableViewTest.xcdatamodeld in Sources */,
+				5558AC671982933800B654B1 /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +340,7 @@
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -347,6 +352,7 @@
 				INFOPLIST_FILE = TableViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

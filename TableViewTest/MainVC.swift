@@ -16,8 +16,8 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = "Task List"
-
+        navigationItem.titleView = UIImageView(image: UIImage(named: "orangecarbon"))
+        
         // Do any additional setup after loading the view.
     }
 
@@ -37,12 +37,14 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return taskMgr.tasks.count
         
     }
-    
+        
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! { let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "TableView")
         
         //Assign the contents of our var "items" to the textLabel of each cell
         cell.textLabel.text = taskMgr.tasks[indexPath.row].name
         cell.detailTextLabel.text = taskMgr.tasks[indexPath.row].description
+        cell.textLabel.textColor = UIColor .grayColor()
+        cell.detailTextLabel.textColor = UIColor .orangeColor()
         
         return cell
         
@@ -60,6 +62,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         //Programmatically push to associated VC (DetailVC)
         self.navigationController.pushViewController(detail, animated: true)
     }
+    
     
     func tableView(tableView:UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath:NSIndexPath!){
         

@@ -36,7 +36,7 @@ class AddTaskVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        txtName.becomeFirstResponder()
+        txtName.becomeFirstResponder()
 
         // Do any additional setup after loading the view.
     }

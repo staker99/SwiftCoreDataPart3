@@ -18,7 +18,7 @@ class DetailVC: UIViewController {
     var cellName:String = ""
     var cellDesc:String = ""
     
-    init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder!) {
         
         super.init(coder:aDecoder)
         
@@ -33,7 +33,9 @@ class DetailVC: UIViewController {
         
         //Assign String var to NavBar title
         self.title = cellName
-
+        
+        cellDetailLabel.numberOfLines = 0
+        
         // Do any additional setup after loading the view.
     }
 

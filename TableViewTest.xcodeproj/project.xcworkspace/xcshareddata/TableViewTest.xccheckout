@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A59C696-EDEA-426E-8002-CE67B68CB4AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TableViewTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0A8EB51E0CE22C31F5CF8A97DEB8A7FEE8989FC3</key>
+		<string>https://github.com/dvdowns/SwiftCoreDataPart1.git</string>
+		<key>AA8EFB7F2331C2571A491CF8A121AD38D8E7C636</key>
+		<string>https://github.com/dvdowns/SwiftCoreDataPart3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TableViewTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0A8EB51E0CE22C31F5CF8A97DEB8A7FEE8989FC3</key>
+		<string>../../../TableViewTest</string>
+		<key>AA8EFB7F2331C2571A491CF8A121AD38D8E7C636</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dvdowns/SwiftCoreDataPart3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA8EFB7F2331C2571A491CF8A121AD38D8E7C636</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA8EFB7F2331C2571A491CF8A121AD38D8E7C636</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftCoreDataPart3</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0A8EB51E0CE22C31F5CF8A97DEB8A7FEE8989FC3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TableViewTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
