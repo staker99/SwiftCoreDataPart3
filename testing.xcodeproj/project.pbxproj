@@ -12,12 +12,12 @@
 		5595A0C119A94B1D00A7EB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5595A0BF19A94B1D00A7EB86 /* Main.storyboard */; };
 		5595A0C319A94B1D00A7EB86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5595A0C219A94B1D00A7EB86 /* Images.xcassets */; };
 		5595A0CF19A94B1D00A7EB86 /* testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0CE19A94B1D00A7EB86 /* testingTests.swift */; };
-		5595A0DA19A9502100A7EB86 /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0D819A9502100A7EB86 /* PersistenceHelper.swift */; };
-		5595A0DB19A9502100A7EB86 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0D919A9502100A7EB86 /* TaskManager.swift */; };
-		5595A0E019A950A400A7EB86 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0DC19A950A400A7EB86 /* AddTaskVC.swift */; };
-		5595A0E119A950A400A7EB86 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0DD19A950A400A7EB86 /* DetailVC.swift */; };
-		5595A0E219A950A400A7EB86 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0DE19A950A400A7EB86 /* MainVC.swift */; };
-		5595A0E319A950A400A7EB86 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595A0DF19A950A400A7EB86 /* NavController.swift */; };
+		55A393F119A989E400535411 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A393EC19A989E400535411 /* AddTaskVC.swift */; };
+		55A393F219A989E400535411 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A393ED19A989E400535411 /* DetailVC.swift */; };
+		55A393F319A989E400535411 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A393EE19A989E400535411 /* MainVC.swift */; };
+		55A393F419A989E400535411 /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A393EF19A989E400535411 /* PersistenceHelper.swift */; };
+		55A393F519A989E400535411 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A393F019A989E400535411 /* TaskManager.swift */; };
+		55A393F719A98B2000535411 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A393F619A98B2000535411 /* NavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +40,12 @@
 		5595A0C819A94B1D00A7EB86 /* testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5595A0CD19A94B1D00A7EB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5595A0CE19A94B1D00A7EB86 /* testingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingTests.swift; sourceTree = "<group>"; };
-		5595A0D819A9502100A7EB86 /* PersistenceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersistenceHelper.swift; path = ../../../Swift_Repos/SwiftCoreDataPart3/TableViewTest/PersistenceHelper.swift; sourceTree = "<group>"; };
-		5595A0D919A9502100A7EB86 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskManager.swift; path = ../../../Swift_Repos/SwiftCoreDataPart3/TableViewTest/TaskManager.swift; sourceTree = "<group>"; };
-		5595A0DC19A950A400A7EB86 /* AddTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTaskVC.swift; path = ../../../Swift_Repos/SwiftCoreDataPart3/TableViewTest/AddTaskVC.swift; sourceTree = "<group>"; };
-		5595A0DD19A950A400A7EB86 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailVC.swift; path = ../../../Swift_Repos/SwiftCoreDataPart3/TableViewTest/DetailVC.swift; sourceTree = "<group>"; };
-		5595A0DE19A950A400A7EB86 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = ../../../Swift_Repos/SwiftCoreDataPart3/TableViewTest/MainVC.swift; sourceTree = "<group>"; };
-		5595A0DF19A950A400A7EB86 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavController.swift; path = ../../../Swift_Repos/SwiftCoreDataPart3/TableViewTest/NavController.swift; sourceTree = "<group>"; };
+		55A393EC19A989E400535411 /* AddTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
+		55A393ED19A989E400535411 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		55A393EE19A989E400535411 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		55A393EF19A989E400535411 /* PersistenceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
+		55A393F019A989E400535411 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		55A393F619A98B2000535411 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +89,12 @@
 			children = (
 				5595A0BF19A94B1D00A7EB86 /* Main.storyboard */,
 				5595A0B819A94B1D00A7EB86 /* AppDelegate.swift */,
-				5595A0DE19A950A400A7EB86 /* MainVC.swift */,
-				5595A0DD19A950A400A7EB86 /* DetailVC.swift */,
-				5595A0DC19A950A400A7EB86 /* AddTaskVC.swift */,
-				5595A0DF19A950A400A7EB86 /* NavController.swift */,
-				5595A0D819A9502100A7EB86 /* PersistenceHelper.swift */,
-				5595A0D919A9502100A7EB86 /* TaskManager.swift */,
+				55A393EE19A989E400535411 /* MainVC.swift */,
+				55A393ED19A989E400535411 /* DetailVC.swift */,
+				55A393EC19A989E400535411 /* AddTaskVC.swift */,
+				55A393F619A98B2000535411 /* NavController.swift */,
+				55A393EF19A989E400535411 /* PersistenceHelper.swift */,
+				55A393F019A989E400535411 /* TaskManager.swift */,
 				5595A0C219A94B1D00A7EB86 /* Images.xcassets */,
 				5595A0BA19A94B1D00A7EB86 /* testing.xcdatamodeld */,
 				5595A0B619A94B1D00A7EB86 /* Supporting Files */,
@@ -226,14 +226,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5595A0E019A950A400A7EB86 /* AddTaskVC.swift in Sources */,
+				55A393F719A98B2000535411 /* NavController.swift in Sources */,
 				5595A0BC19A94B1D00A7EB86 /* testing.xcdatamodeld in Sources */,
-				5595A0DB19A9502100A7EB86 /* TaskManager.swift in Sources */,
+				55A393F519A989E400535411 /* TaskManager.swift in Sources */,
 				5595A0B919A94B1D00A7EB86 /* AppDelegate.swift in Sources */,
-				5595A0E319A950A400A7EB86 /* NavController.swift in Sources */,
-				5595A0E219A950A400A7EB86 /* MainVC.swift in Sources */,
-				5595A0DA19A9502100A7EB86 /* PersistenceHelper.swift in Sources */,
-				5595A0E119A950A400A7EB86 /* DetailVC.swift in Sources */,
+				55A393F319A989E400535411 /* MainVC.swift in Sources */,
+				55A393F119A989E400535411 /* AddTaskVC.swift in Sources */,
+				55A393F219A989E400535411 /* DetailVC.swift in Sources */,
+				55A393F419A989E400535411 /* PersistenceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,7 @@
 				5595A0D419A94B1D00A7EB86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5595A0D519A94B1D00A7EB86 /* Build configuration list for PBXNativeTarget "testingTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				5595A0D719A94B1D00A7EB86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

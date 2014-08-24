@@ -88,7 +88,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="NGO-xH-AVP">
                             <connections>
-                                <action selector="btnAddTask" destination="PWK-WY-6CV" id="cP8-DS-5t7"/>
+                                <action selector="btnAddTask" destination="PWK-WY-6CV" id="5kQ-WA-Lml"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
