@@ -34,7 +34,7 @@ class PersistenceHelper: NSObject {
         
         var request = NSFetchRequest(entityName: entity)
         request.returnsObjectsAsFaults = false;
-        var results: NSArray = context.executeFetchRequest(request, error: nil)
+        var results: NSArray = context.executeFetchRequest(request, error: nil)!
         return results
     }
     
@@ -43,7 +43,7 @@ class PersistenceHelper: NSObject {
         var request = NSFetchRequest(entityName: entity)
         request.returnsObjectsAsFaults = false
         request.predicate = NSPredicate(format: "\(key) = %@", value)
-        var results: NSArray = context.executeFetchRequest(request, error: nil)
+        var results: NSArray = context.executeFetchRequest(request, error: nil)!
         
         if(results.count>0){
             

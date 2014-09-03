@@ -25,13 +25,13 @@ class AddTaskVC: UIViewController {
         txtSubmitted.text = ""
         self.view.endEditing(true)
         
-        navigationController.presentingViewController.dismissViewControllerAnimated(true, completion: {})
+        navigationController?.presentingViewController?.dismissViewControllerAnimated(true, completion: {})
         
     }
     
     @IBAction func btnCancel(){
         
-        navigationController.presentingViewController.dismissViewControllerAnimated(true, completion: {})
+        navigationController?.presentingViewController?.dismissViewControllerAnimated(true, completion: {})
         
     }
     
@@ -49,7 +49,7 @@ class AddTaskVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         
         self.view.endEditing(true)
         
